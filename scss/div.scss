@@ -1,0 +1,43 @@
+div {
+    margin-top: 25rem;
+    transform: translate(-450%);
+    border-radius: 30%;
+    background-color: var(--color);
+    width: 5rem;
+    height: 5rem;
+    box-shadow:
+    
+        0rem 5rem var(--color),
+        0rem 10rem var(--color),
+        0rem 15rem var(--color),
+        0rem 20rem var(--color),
+        5rem 0rem var(--color),
+        10rem 0rem var(--color),
+        15rem 5rem var(--color),
+        10rem 10rem var(--color),
+        5rem 10rem var(--color),
+        15rem 15rem var(--color),
+        15rem 20rem var(--color),
+
+    
+        30rem 5rem var(--color),
+        30rem 10rem var(--color),
+        30rem 15rem var(--color),
+        35rem 20rem var(--color),
+        40rem 5rem var(--color),
+        10rem 10rem var(--color),
+        40rem 10rem var(--color),
+        40rem 15rem var(--color),
+        15rem 20rem var(--color),
+}   
+@keyframes colorChange{
+    0% {
+        background-color: #37c0e2;
+    }
+    50%{
+        background-color: #91ff72;
+    }
+    100%{
+        background-color: #a4ff7a;
+    }
+}

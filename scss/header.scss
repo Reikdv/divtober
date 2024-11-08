@@ -1,0 +1,11 @@
+header{
+    background-color: #eee;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif;
+    animation: colorChange 5s ease-in-out infinite alternate;
+}
